@@ -57,7 +57,8 @@ window.onload = function(){
 
     myGame.newTexture("bunny", "bunny.png");
 
-    var floppy = new Bunny(50,75);
+    var floppy = new Bunny(400,500);
+    floppy.rotationSpeed = 0;
     myGame.spawn(floppy);
 
     myGame.spawn(new Bunny(300, 300));
