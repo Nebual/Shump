@@ -36,7 +36,7 @@ window.onload = function(){
       function(){
         var bullet = new Bunny(floppy.pos.x,floppy.pos.y);
         bullet.vel.y = -300;
-        bullet.rotationSpeed = 0;
+        bullet.rotationSpeed = 120;
         bullet.sprite.scale.x = 0.5;
         bullet.sprite.scale.y = 1.5;
         myGame.spawn(bullet);
